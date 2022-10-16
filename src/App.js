@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import CalendarHeader from './calendar/CalendarHeader';
 import './App.css';
+import { NavLink, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavLink to={"/"} className="h1Nav"><h1 className="mainYear">2022</h1></NavLink>
+      <Routes>
+        <Route path='/*' element={<CalendarHeader/>} />
+      </Routes>
     </div>
   );
 }
