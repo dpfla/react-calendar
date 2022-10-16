@@ -1,0 +1,22 @@
+ul, li{
+    margin: 0;
+    padding: 0;
+}
+.monthChooseArea{
+    margin: 30px auto 50px;
+}
+.monthChoose{
+    display: flex;
+}
+.monthChoose > li{
+    margin: 0 auto;
+    list-style: none;
+}
+.monthChoose .monthNav{
+    text-decoration: none;
+    color: #333;
+}
+.monthChoose .active {
+    color:rgb(19, 0, 189);
+    font-weight: 600;
+}

@@ -1,0 +1,45 @@
+p,span {
+    margin: 0;
+    padding: 0;
+}
+.memoContainer {
+    height: 100%;
+    width: 99%;
+    z-index: 20;
+    margin-top: 8px;
+}
+.memoDivArea{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 80px;
+    box-sizing: border-box;
+}
+.memoweek{
+    width: 25%;
+    height: 250px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: rgb(243, 247, 249);
+    padding-top: 10px;
+}
+div.memoweek > span{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-bottom: 1px solid #666;
+    color: #000;
+}
+div.memoweek > span > span {
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.notActiveWeek{
+    background-color: #f0f0f0;
+}
+.memoContents{
+    margin-top: 10px;
+}

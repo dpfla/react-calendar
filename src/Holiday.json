@@ -1,0 +1,100 @@
+{
+    "JAN": [
+        {
+            "day": 1,
+            "holidayName": "새해첫날"
+        },
+        {
+            "day": 31,
+            "holidayName": "설날연휴"
+        }
+    ],
+    "FEB": [
+        {
+            "day": 1,
+            "holidayName": "설연휴"
+        },
+        {
+            "day": 2,
+            "holidayName": "설연휴"
+        }
+    ],
+    "MAR": [
+        {
+            "day": 1,
+            "holidayName": "3.1절"
+        },
+        {
+            "day": 9,
+            "holidayName": "20대 대통령 선거"
+        }
+    ],
+    "APR": [],
+    "MAY": [
+        {
+            "day": 5,
+            "holidayName": "어린이날"
+        },
+        {
+            "day": 8,
+            "holidayName": "부처님오신날"
+        }
+    ],
+    "JUN": [
+        {
+            "day": 1,
+            "holidayName": "전국지방선거"
+        },
+        {
+            "day": 6,
+            "holidayName": "현충일"
+        }
+    ],
+    "JUL": [],
+    "AUG": [
+        {
+            "day": 15,
+            "holidayName": "광복절"
+        }
+    ],
+    "SEP": [
+        {
+            "day": 9,
+            "holidayName": "추석연휴"
+        },
+        {
+            "day": 10,
+            "holidayName": "추석연휴"
+        },
+        {
+            "day": 11,
+            "holidayName": "추석연휴"
+        },
+        {
+            "day": 12,
+            "holidayName": "대체공휴일"
+        }
+    ],
+    "OCT": [
+        {
+            "day": 3,
+            "holidayName": "개천절"
+        },
+        {
+            "day": 9,
+            "holidayName": "한글날"
+        },
+        {
+            "day": 10,
+            "holidayName": "대체공휴일"
+        }
+    ],
+    "NOV": [],
+    "DEC": [
+        {
+            "day": 25,
+            "holidayName": "크리스마스"
+        }
+    ]
+}
+    
